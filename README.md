@@ -24,3 +24,26 @@ The following features were added:
 The status of the project is finalized✅ however I am open to opinions in order to improve or include new functionalities to it.
 
 <br>
+## ℹ️ Installation Guide
+To download the project using Git, follow these steps:
+1) Inside your preferred folder I opened a terminal.
+2) Copy and paste the following command: <code>git clone https://github.com/fedeavila/Partial1HDP.git</code>
+3) Once the cloning is complete you will be able to run the project. From <b>Visual Studio Community</b> by double-clicking on the SneakerStore.sln file or from <b>Visual Studio Code</b>, entering the SneakerStore folder and then in a terminal execute the command: <code >dotnet run</code>
+
+<br>
+<br>
+
+## 📚 Requirements:
+You must have .NET installed on your operating system:
+
+![image](https://github.com/fedeavila/Parcial1HDP/assets/68792337/f0b1d333-2c36-4de9-b45d-754b8e19add9)
+
+- If you use Windows🖳 access this link, download and install the framework: <code>https://dotnet.microsoft.com/es-es/download</code>
+- If you use Linux🛠️ you can install .NET directly from a terminal with the following command: <code>sudo apt install dotnet-sdk-7.0</code>
+- To install .NET on MacOS💻 I invite you to consult the following instructions: <code>https://learn.microsoft.com/en-us/dotnet/core/install/macos</code><br>
+
+<br>
+<br>
+
+## ⚖️ Copyright and Licenses
+All copyrights of this project belong to Federico Avila. Unless otherwise specified, all content in this repository is under the following license:
