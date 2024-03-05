@@ -47,3 +47,36 @@ You must have .NET installed on your operating system:
 
 ## ⚖️ Copyright and Licenses
 All copyrights of this project belong to Federico Avila. Unless otherwise specified, all content in this repository is under the following license:
+
+<b>GPL License (General Public License):</b> It is a copyleft license that establishes that any software derived from or linked to the project must also be distributed under the terms of the GPL. This license ensures that any derived projects are also open source and that improvements and modifications are shared with the community.
+
+If you wish to use, modify, or distribute this project under the terms of the license, be sure to comply with all stated requirements and attributions.
+
+Please note that any unauthorized use or violation of copyright may be subject to appropriate legal action.
+
+If you have any questions related to copyright or license, please feel free to contact me at: <mail>fedeavila@outlook.com</mail>📧
+
+<br>
+<br>
+
+## 🙋 FAQ (Frequently Asked Questions)
+### 1. I cloned the project but when I try to run it I get an error. Because?
+Since this project was created in Visual Studio Community and not in Visual Studio Code, make sure to run the project inside the folder called "SneakerStore" and not inside the one called "Partial1HDP".
+
+### 2. I'm in the SneakerStore folder but I still can't run the application.
+Remember to install .NET and, if possible, restart the machine once done. The installation guide can be found in the Requirements section above.
+
+### 3. I run the project, it does not throw any errors, however the application does not open.
+If you are running the application from a terminal and not from the Visual Studio Community, you have to search within the terminal for a URL and click on it to open the application in your web browser. It usually has this format:
+
+![image](https://github.com/fedeavila/Parcial1HDP/assets/68792337/0211656e-085b-4384-b855-1a6070226cfc)
+If that link is not "clickable" you can copy the URL and paste it into your web browser!
+
+<br>
+
+## 👋😺
+Without further comment, I say goodbye... I hope you liked it!
+
+![giphy (1)](https://github.com/Tanqueta88/Project-SneakerStore.git)
+
+
