@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "7l/+mi4YR3pUaQGXhLI8nUmBa79ep2jFflPpaK938gpWWfjSuQ9KreR9lJM9dFpzD4nTVEFPY2WJDvUk7wuSnA==",
+  "dgSpecHash": "mRJMYmMEBtbIhAyTB9brqyK3Kj6oFPeRZc/7NL30TMNyBt+mlGBhAYEdWiobNoMFfT9YL0U+GXrbHFVWcb7Feg==",
   "success": true,
-  "projectFilePath": "/home/jorge_linux/VisualStudioProyects/MVCProject-/MVCProject-.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\olive\\OneDrive\\Documentos\\Repositorios\\Project-SneakerStore\\MVCProject-.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\olive\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
   "logs": []
 }
