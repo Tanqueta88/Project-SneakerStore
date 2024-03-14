@@ -1,0 +1,68 @@
+﻿@using SneakerStore.ViewModel
+@model SneakerViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+<link rel="stylesheet" href="~/css/estilos.css" />
+
+<h1>Sneakers</h1>
+
+
+<div class=" row">
+    <form method="get" asp-action="Index" asp-asp-controller="Sneakers">
+        <div class="col-3 form-group">
+            <label>Buscador:</label>
+            <input class="form-control" asp-for="filtroMarca" />
+        </div>
+
+        <div style="height: 10px;"></div>
+
+        <button class="btn btn-secondary" type="submit">Buscar</button>
+    </form>
+</div>
+
+<hr />
+
+<p>
+    @*<a asp-action="Create">Crear</a>*@
+    <a class="btn btn-primary" asp-action="Create">NUEVA SNEAKER</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.sneakers[0].Model):
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sneakers[0].Price):
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sneakers[0].Brand):
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.sneakers)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Model)
+                </td>
+                <td>
+                    $ @Html.DisplayFor(modelItem => item.Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Brand.BrandName)
+                </td>
+                <td>
+                    <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.SneakerId">Editar</a>
+                    <a class="btn btn-info" asp-action="Details" asp-route-id="@item.SneakerId">Detalles</a>
+                    <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.SneakerId">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
